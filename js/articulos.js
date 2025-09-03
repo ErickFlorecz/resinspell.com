@@ -12,10 +12,18 @@ window.ARTICULOS = [
         dimensiones_cm: { ancho: 10, largo: 8, alto: 26 }
     },
     {
+<<<<<<< HEAD
+        sku: 301000,
+        categoria: "Videojuegos",
+        subcategoria: "League of Legends (LoL)",
+        nombre: "BloodMoon Diana",
+        imgs: ["../img/VideoGames/LeagueOfLegends/BloodMoonDiana/BloodMoonDiana.png", "../img/VideoGames/LeagueOfLegends/BloodMoonDiana/BloodMoonDiana2.webp", "../img/VideoGames/LeagueOfLegends/BloodMoonDiana/BloodMoonDiana3.webp", "../img/VideoGames/LeagueOfLegends/BloodMoonDiana/BloodMoonDiana4.webp"],
+=======
         categoria: "Anime",
         subcategoria: "Demon Slayer (Kimetsu no Yaiba)",
         nombre: "Nezuko Kamado",
-        imgs: ["../img/Anime/DemonSlayer/Nezuko/Nezuko1.webp", "../img/Anime/DemonSlayer/Nezuko/Nezuko2.webp"],
+        imgs: ["./img/Anime/DemonSlayer/Nezuko/Nezuko1.webp", "./img/Anime/DemonSlayer/Nezuko/Nezuko2.webp"],
+>>>>>>> 89f0f06505d77f4e8aa6f6579b9861b7be2133ee
         descripcion: "Nezuko Kamado es la hermana menor de Tanjiro...",
         status: "Disponible",
         precio: "$1,900.00",
@@ -24,8 +32,13 @@ window.ARTICULOS = [
         sku: 101001,
         categoria: "Anime",
         subcategoria: "Demon Slayer (Kimetsu no Yaiba)",
-        nombre: "Nezuko Kamado Adulta",
+<<<<<<< HEAD
+        nombre: "Nezuko Kamado Demonio",
         imgs: ["../img/Anime/DemonSlayer/Nezuko/Nezuko1.webp", "../img/Anime/DemonSlayer/Nezuko/Nezuko2.webp"],
+=======
+        nombre: "Nezuko Kamado Adulta",
+        imgs: ["./img/Anime/DemonSlayer/Nezuko/Nezuko1.webp", "./img/Anime/DemonSlayer/Nezuko/Nezuko2.webp"],
+>>>>>>> 89f0f06505d77f4e8aa6f6579b9861b7be2133ee
         descripcion: "Nezuko Kamado es la hermana menor de Tanjiro...",
         status: "Disponible",
         precio: "$19,500.00",
@@ -76,11 +89,20 @@ window.ARTICULOS = [
         dimensiones_cm: null
 
     }, {
+<<<<<<< HEAD
+        sku: 302000,
+        categoria: "Videojuegos",
+        subcategoria: "Zenless Zone Zero",
+        nombre: "Jane Doe",
+        imgs: ["../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe1.jpg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe2.jpg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe3.jpg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe4.jpg"],
+        descripcion: "Es una agente jugable en Zenless Zone Zero y una especialista en comportamiento criminal que trabaja como consultora para el Equipo de Respuesta Especial de Investigación Criminal (Jane Doe).",
+=======
         categoria: "Anime",
         subcategoria: "Zoneless Zone Zero",
         nombre: "Juanita",
-        imgs: ["../img/ElSeñorDeLosAnillos/Istar/Gandalf/Gandalf1.jpg", "../img/ElSeñorDeLosAnillos/Istar/Gandalf/Gandalf2.jpg"],
+        imgs: ["./img/ElSeñorDeLosAnillos/Istar/Gandalf/Gandalf1.jpg", "./img/ElSeñorDeLosAnillos/Istar/Gandalf/Gandalf2.jpg"],
         descripcion: "Artistas y hechiceros que utilizan la música y la persuasión.",
+>>>>>>> 89f0f06505d77f4e8aa6f6579b9861b7be2133ee
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
