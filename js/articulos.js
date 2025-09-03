@@ -17,7 +17,7 @@ window.ARTICULOS = [
         imgs: ["../img/Anime/DemonSlayer/Nezuko/Nezuko1.webp", "../img/Anime/DemonSlayer/Nezuko/Nezuko2.webp"],
         descripcion: "Nezuko Kamado es la hermana menor de Tanjiro...",
         status: "Disponible",
-        precio: "$19,500.00",
+        precio: "$1,900.00",
         dimensiones_cm: { ancho: 38, largo: 36, alto: 80 }
     }, {
         categoria: "Anime",
@@ -37,7 +37,7 @@ window.ARTICULOS = [
         imgs: ["../img/Anime/AttackOnTitans/ErenJaeger/ErenJaeger2.webp", "../img/Anime/AttackOnTitans/ErenJaeger/ErenJaeger1.jpg"],
         descripcion: "Eren Jaeger fue un ex miembro del Regimiento de Exploradores y el protagonista principal de Attack on Titan. Era el único hijo de Grisha y Carla Jaeger, el medio hermano paterno más joven de Zeke Jaeger,[25] y el último poseedor del Titán de Ataque, el Titán Fundador,[26] y el Titán Martillo de Guerra",
         status: "Disponible",
-        precio: "$500.00",
+        precio: "$2,500.00",
         dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
     },
     {
