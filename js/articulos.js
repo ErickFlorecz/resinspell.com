@@ -71,7 +71,7 @@ window.ARTICULOS = [
         dimensiones_cm: null
     }, {
         categoria: "Anime",
-        subcategoria: "Zone Zero",
+        subcategoria: "Zoneless Zone Zero",
         nombre: "Juanita",
         imgs: ["../img/ElSeñorDeLosAnillos/Istar/Gandalf/Gandalf1.jpg", "../img/ElSeñorDeLosAnillos/Istar/Gandalf/Gandalf2.jpg"],
         descripcion: "Artistas y hechiceros que utilizan la música y la persuasión.",
