@@ -5,8 +5,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Resin Spell</title>
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="icon" href="./icon/favicon.jpg" type="image/jpg" sizes="16x16">
+  <link rel="stylesheet" href="./css/main.css">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -35,17 +39,33 @@
     </div>
   </header>
 
+  <nav class="icon-redes">
+    <ul>
+      <li><a href=”./index.html”>
+          <i class="fa-brands fa-facebook-f"></i>
+          <span>Facebook</span></a>
+      </li>
+      <li><a href=”https://www.instagram.com/resin.spell/”>
+          <i class="fa-brands fa-instagram"></i>
+          <span>Instagram</span></a>
+      </li>
+      <li><a href=”./index.html”>
+          <i class="fa-brands fa-youtube"></i>
+          <span>Youtube</span></a>
+      </li>
+    </ul>
+  </nav>
+
   <main class="wrap">
     <div id="grid" class="grid"></div>
   </main>
 
   <footer>
-    <div class="wrap">Carga de datos desde <code>js/articulos.js</code> (o <code>json/articulos.json</code> si no existe
-      el JS).</div>
+    <div class="wrap"></div>
   </footer>
 
-  <script src="../js/main.js" defer></script>
-  <script src="../js/articulos.js"></script>
+  <script src="./js/main.js" defer></script>
+  <script src="./js/articulos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/shufflejs@6/dist/shuffle.min.js"></script>
 
 </body>
