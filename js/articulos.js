@@ -79,4 +79,14 @@ window.ARTICULOS = [
         precio: "",
         dimensiones_cm: null
     },
+    {
+        categoria: "Videojuegos",
+        subcategoria: "Warhammer 40K",
+        nombre: "Titus",
+        imgs: ["../img/VideoGames/Warhammer40K/Titus/Titus1.jpeg", "../img/VideoGames/Warhammer40K/Titus/Titus2.jpeg", "../img/VideoGames/Warhammer40K/Titus/Titus3.jpeg"],
+        descripcion: "Comandante Titus del primer regimiento de Space Marines.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+    },
 ];
