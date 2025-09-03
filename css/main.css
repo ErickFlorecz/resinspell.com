@@ -1,0 +1,235 @@
+:root {
+    --gap-filters: 8px;
+    --card-radius: 14px;
+    --shadow: 0 6px 18px rgba(0, 0, 0, .08);
+    --precio: #EFCF72;
+    --thumb-ratio: 4/5;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+    background: #c9c6c6;
+    color: #f3f3f3
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    backdrop-filter: blur(6px);
+    background: rgb(15 15 17/.6);
+    border-bottom: 1px solid rgb(255 255 255/.06)
+}
+
+.wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 18px
+}
+
+h1 {
+    font-size: clamp(20px, 2.5vw, 28px);
+    margin: 0;
+    letter-spacing: .5px
+}
+
+/* Controles */
+.filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: var(--gap-filters);
+    align-items: end;
+    margin-top: 14px
+}
+
+.field {
+    display: grid;
+    gap: 6px
+}
+
+.field label {
+    font-size: 12px;
+    color: #cfcfcf
+}
+
+select,
+input[type="search"] {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid rgb(255 255 255/.12);
+    background: #16161a;
+    color: #f3f3f3
+}
+
+.reset {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid rgb(255 255 255/.12);
+    background: #826497;
+    color: #fff;
+    cursor: pointer
+}
+
+/* Grid con Shuffle (no usar display:grid) */
+main {
+    padding: 10px 18px 40px;
+}
+
+.grid {
+    position: relative;
+}
+
+.item {
+    background: #66666a;
+    /* border: 1px solid rgb(255 255 255/.08); */
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--gap);
+}
+
+.sizer {
+    height: 0;
+    pointer-events: none;
+    margin: 2px 15px;
+}
+
+.item,
+.sizer {
+    width: var(--col-width, 220px);
+}
+
+/* Tarjeta */
+.thumb {
+    position: relative;
+    aspect-ratio: var(--thumb-ratio);
+    /* mismo alto en todas */
+    width: 100%;
+    overflow: hidden;
+    background: #0b0b0d;
+}
+
+.thumb .nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    background: rgb(0 0 0 /.35);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+
+.thumb .nav.prev {
+    left: 8px;
+}
+
+.thumb .nav.next {
+    right: 8px;
+}
+
+.thumb .nav:hover {
+    background: rgb(0 0 0 /.55);
+}
+
+.thumb .dots {
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+}
+
+.thumb .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 999px;
+    background: rgb(255 255 255 /.35);
+}
+
+.thumb .dot.active {
+    background: #fff;
+}
+
+
+.thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    background: #0b0b0d;
+}
+
+.thumb>img {
+    position: absolute;
+    inset: 0;
+    /* que ocupe todo el marco */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.content {
+    padding: 12px;
+    display: grid;
+    gap: 8px
+}
+
+.name {
+    font-weight: 600;
+    font-size: 15px
+}
+
+.desc {
+    color: #c9c9d1;
+    font-size: 13px;
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden
+}
+
+.meta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #bdbdcb
+}
+
+.price {
+    color: var(--precio);
+}
+
+.status {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 999px;
+    border: 1px solid rgb(255 255 255/.12);
+    background: #826497
+}
+
+footer {
+    color: #a9a9b4;
+    font-size: 12px;
+    text-align: center;
+    padding: 18px;
+    border-top: 1px solid rgb(255 255 255/.06)
+}

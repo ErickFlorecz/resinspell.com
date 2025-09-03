@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resin Spell</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Catálogo de Figuras 3D</h1>
+      <div class="filters">
+        <div class="field">
+          <label for="categoriaSelect">Categoría</label>
+          <select id="categoriaSelect">
+            <option value="">Todas</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="subcategoriaSelect">Subcategoría</label>
+          <select id="subcategoriaSelect" disabled>
+            <option value="">(Opcional)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="q">Buscar</label>
+          <input id="q" type="search" placeholder="Buscar por nombre o descripción" />
+        </div>
+        <button class="reset" id="resetBtn" title="Limpiar filtros">Limpiar</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <footer>
+    <div class="wrap">Carga de datos desde <code>js/articulos.js</code> (o <code>json/articulos.json</code> si no existe
+      el JS).</div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/articulos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/shufflejs@6/dist/shuffle.min.js"></script>
+
+</body>
+
+</html>
