@@ -83,7 +83,7 @@ window.ARTICULOS = [
         categoria: "Videojuegos",
         subcategoria: "Zenless Zone Zero",
         nombre: "Jane Doe",
-        imgs: ["../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe1.jpg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe2.jpg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe3.jpg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe4.jpg"],
+        imgs: ["../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe1.jpeg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe2.jpeg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe3.jpeg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe4.jpeg"],
         descripcion: "Es una agente jugable en Zenless Zone Zero y una especialista en comportamiento criminal que trabaja como consultora para el Equipo de Respuesta Especial de Investigación Criminal (Jane Doe).",
         status: "Bajo pedido",
         precio: "",
