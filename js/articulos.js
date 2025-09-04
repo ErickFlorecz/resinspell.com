@@ -34,7 +34,7 @@ window.ARTICULOS = [
         dimensiones_cm: { ancho: 38, largo: 36, alto: 80 }
     },
     {
-        sku: 104000,
+        sku: 105000,
         categoria: "Anime",
         subcategoria: "Berserk",
         nombre: "Guts",
