@@ -38,7 +38,7 @@ window.ARTICULOS = [
         categoria: "Anime",
         subcategoria: "Berserk",
         nombre: "Guts",
-        imgs: ["./img/Anime/Berserker/Guts/Guts1.jpg", "./img/Anime/Berserker/Guts/Guts2.jpg", "./img/Anime/Berserker/Guts/Guts3.jpg", "./img/Anime/Berserker/Guts/Guts4.jpg", "./img/Anime/Berserker/Guts/Guts5.jpg"],
+        imgs: ["./img/Anime/Berserker/Guts/Guts1.jpg", "./img/Anime/Berserker/Guts/Guts3.jpg", "./img/Anime/Berserker/Guts/Guts4.jpg", "./img/Anime/Berserker/Guts/Guts5.jpg"],
         descripcion: "Guts, tambíen conocido por su epíteto del 'Espadachín Negro', es el protagonista de Berserk. Es un mercenario solitario que vaga por el mundo medieval oscuro y violento de Berserk, luchando contra humanos y demonios por igual con su enorme espada.",
         status: "Disponible",
         precio: "$1,800.00",
