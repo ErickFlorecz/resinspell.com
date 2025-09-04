@@ -66,6 +66,7 @@
         const el = document.createElement('div');
         el.className = 'item';
         el.dataset.id = item.id || '';
+        el.dataset.sku = item.sku || '';
         el.dataset.categoria = item.categoria || '';
         el.dataset.subcategoria = item.subcategoria || '';
         el.dataset.nombre = item.nombre || '';
@@ -81,7 +82,10 @@
       <div class="dots"></div>
     </div>
     <div class="content">
-      <div class="name">${item.nombre || 'Sin nombre'}</div>
+        <div class="title-card">
+            <div class="name">${item.nombre || 'Sin nombre'}</div>
+            <div class="sku">SKU ${item.sku || '-'}</div>
+        </div>
       <div class="desc">${item.descripcion || ''}</div>
       <div class="meta">
         <span class="price">${item.precio || ''}</span>
