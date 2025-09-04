@@ -114,13 +114,48 @@ window.ARTICULOS = [
         dimensiones_cm: null
     },
 
-    {
+       {
         sku: 103000,
         categoria: "Anime",
         subcategoria: "Evangelion",
         nombre: "Rei Ayanami",
         imgs: ["../img/Anime/Evangelion/ReiAyanami/Rei1.jpg", "../img/Anime/Evangelion/ReiAyanami/Rei2.jpg","../img/Anime/Evangelion/ReiAyanami/Rei3.jpg", "../img/Anime/Evangelion/ReiAyanami/Rei4.jpg"],
         descripcion: "Rei Ayanami (綾波 レイ, Ayanami Rei ?) es la First Children elegida por el Instituto Marduk, designada como piloto del Evangelion Unidad 00.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+    },
+       {
+        sku: 104000,
+        categoria: "Anime",
+        subcategoria: "Sailor Moon",
+        nombre: "Sailor Mercury",
+        imgs: ["../img/Anime/SailorMoon/Mercury/Mercury0.png", "../img/Anime/SailorMoon/Mercury/Mercury.png","../img/Anime/SailorMoon/Mercury/Mercury1.png", "../img/Anime/SailorMoon/Mercury/Mercury11.png","../img/Anime/SailorMoon/Mercury/Mercury2.png"],
+        descripcion: "Sailor Mercury es una de las ocho guardianas que siguen a Sailor Moon la protagonista. Su nombre real es Ami Mizuno, una chica muy inteligente y estudiosa, que siempre saca las mejores calificaciones de su clase.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+    },
+
+        {
+        sku: 306000,
+        categoria: "Videojuegos",
+        subcategoria: "Stellar Blade",
+        nombre: "Eve",
+        imgs: ["../img/VideoGames/StellarBlade/Eve/Eve1.jpg","../img/VideoGames/StellarBlade/Eve/Eve2.jpg","../img/VideoGames/StellarBlade/Eve/Eve3.jpg","../img/VideoGames/StellarBlade/Eve/Eve4.jpg", "../img/VideoGames/StellarBlade/Eve/Eve5.jpg"],
+        descripcion: "EVE is a member of the 7th Airborne Squad as part of the Eve Defense Force and the playable protagonist of Stellar Blade.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+    },
+
+        {
+        sku: 501000,
+        categoria: "Fantasy",
+        subcategoria: "Wizard",
+        nombre: "Merlin",
+        imgs: ["../img/Fantasy/Wizard/Merlin/Merlin1.jpg","../img/Fantasy/Wizard/Merlin/Merlin2.jpg","../img/Fantasy/Wizard/Merlin/Merlin3.jpg","../img/Fantasy/Wizard/Merlin/Merlin4.jpg"],
+        descripcion: "Merlín fue un mago medieval legendario y miembro de la corte del Rey Arturo. Es conocido por su sabiduría, habilidades mágicas y su papel como consejero del rey.",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
