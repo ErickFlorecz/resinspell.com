@@ -83,19 +83,19 @@ window.ARTICULOS = [
         categoria: "Videojuegos",
         subcategoria: "Dead Space",
         nombre: "Isaac Clarke",
-        imgs: ["../img/VideoGames/Extras/IsaacClarke/IsaacClark1.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark2.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark3.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark4.png","../img/VideoGames/Extras/IsaacClarke/IsaacClark5.png","../img/VideoGames/Extras/IsaacClarke/IsaacClark7.png"],
+        imgs: ["../img/VideoGames/Extras/IsaacClarke/IsaacClark1.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark2.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark3.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark4.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark5.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark7.png"],
         descripcion: "Isaac Clarke es un exingeniero de sistemas navales que trabajó para la Corporación de Extracción Concordancia y desempeñó un papel crucial en los acontecimientos relacionados con los Marcadores en el siglo XXVI. Isaac es el protagonista de toda la franquicia de Dead Space .",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
     },
 
-        {
+    {
         sku: 305000,
         categoria: "Videojuegos",
         subcategoria: "Bloodborne",
         nombre: "Plain  Doll",
-        imgs: ["../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll3.jpg", "../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll4.jpg","../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll5.jpg","../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll1.jpg", "../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll2.jpg"],
+        imgs: ["../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll3.jpg", "../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll4.jpg", "../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll5.jpg", "../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll1.jpg", "../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll2.jpg"],
         descripcion: "Una muñeca normal y corriente, pero a medida que avanza la historia, algo podría cambiar.",
         status: "Bajo pedido",
         precio: "",
@@ -107,54 +107,52 @@ window.ARTICULOS = [
         categoria: "Peliculas",
         subcategoria: "Tron",
         nombre: "Quorra",
-        imgs: ["../img/Peliculas/Tron/Quorra/Quorra1.png", "../img/Peliculas/Tron/Quorra/Quorra2.png","../img/Peliculas/Tron/Quorra/Quorra3.png", "../img/Peliculas/Tron/Quorra/Quorra4.png"],
+        imgs: ["../img/Peliculas/Tron/Quorra/Quorra1.png", "../img/Peliculas/Tron/Quorra/Quorra2.png", "../img/Peliculas/Tron/Quorra/Quorra3.png", "../img/Peliculas/Tron/Quorra/Quorra4.png"],
         descripcion: "Quorra es una excelente guerrera, posee una gran habilidad con la espada de luz y con su disco de identidad. Es una de las mejores luchadoras del mundo digital.",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
     },
 
-       {
+    {
         sku: 103000,
         categoria: "Anime",
         subcategoria: "Evangelion",
         nombre: "Rei Ayanami",
-        imgs: ["../img/Anime/Evangelion/ReiAyanami/Rei1.jpg", "../img/Anime/Evangelion/ReiAyanami/Rei2.jpg","../img/Anime/Evangelion/ReiAyanami/Rei3.jpg", "../img/Anime/Evangelion/ReiAyanami/Rei4.jpg"],
+        imgs: ["../img/Anime/Evangelion/ReiAyanami/Rei1.jpg", "../img/Anime/Evangelion/ReiAyanami/Rei2.jpg", "../img/Anime/Evangelion/ReiAyanami/Rei3.jpg", "../img/Anime/Evangelion/ReiAyanami/Rei4.jpg"],
         descripcion: "Rei Ayanami (綾波 レイ, Ayanami Rei ?) es la First Children elegida por el Instituto Marduk, designada como piloto del Evangelion Unidad 00.",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
     },
-       {
+    {
         sku: 104000,
         categoria: "Anime",
         subcategoria: "Sailor Moon",
         nombre: "Sailor Mercury",
-        imgs: ["../img/Anime/SailorMoon/Mercury/Mercury0.png", "../img/Anime/SailorMoon/Mercury/Mercury.png","../img/Anime/SailorMoon/Mercury/Mercury1.png", "../img/Anime/SailorMoon/Mercury/Mercury11.png","../img/Anime/SailorMoon/Mercury/Mercury2.png"],
+        imgs: ["../img/Anime/SailorMoon/Mercury/Mercury0.png", "../img/Anime/SailorMoon/Mercury/Mercury.png", "../img/Anime/SailorMoon/Mercury/Mercury1.png", "../img/Anime/SailorMoon/Mercury/Mercury11.png", "../img/Anime/SailorMoon/Mercury/Mercury2.png"],
         descripcion: "Sailor Mercury es una de las ocho guardianas que siguen a Sailor Moon la protagonista. Su nombre real es Ami Mizuno, una chica muy inteligente y estudiosa, que siempre saca las mejores calificaciones de su clase.",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
     },
-
-        {
+    {
         sku: 306000,
         categoria: "Videojuegos",
         subcategoria: "Stellar Blade",
         nombre: "Eve",
-        imgs: ["../img/VideoGames/StellarBlade/Eve/Eve1.jpg","../img/VideoGames/StellarBlade/Eve/Eve2.jpg","../img/VideoGames/StellarBlade/Eve/Eve3.jpg","../img/VideoGames/StellarBlade/Eve/Eve4.jpg", "../img/VideoGames/StellarBlade/Eve/Eve5.jpg"],
+        imgs: ["../img/VideoGames/StellarBlade/Eve/Eve1.jpg", "../img/VideoGames/StellarBlade/Eve/Eve2.jpg", "../img/VideoGames/StellarBlade/Eve/Eve3.jpg", "../img/VideoGames/StellarBlade/Eve/Eve4.jpg", "../img/VideoGames/StellarBlade/Eve/Eve5.jpg"],
         descripcion: "EVE is a member of the 7th Airborne Squad as part of the Eve Defense Force and the playable protagonist of Stellar Blade.",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
     },
-
-        {
+    {
         sku: 501000,
         categoria: "Fantasy",
         subcategoria: "Wizard",
         nombre: "Merlin",
-        imgs: ["../img/Fantasy/Wizard/Merlin/Merlin1.jpg","../img/Fantasy/Wizard/Merlin/Merlin2.jpg","../img/Fantasy/Wizard/Merlin/Merlin3.jpg","../img/Fantasy/Wizard/Merlin/Merlin4.jpg"],
+        imgs: ["../img/Fantasy/Wizard/Merlin/Merlin1.jpg", "../img/Fantasy/Wizard/Merlin/Merlin2.jpg", "../img/Fantasy/Wizard/Merlin/Merlin3.jpg", "../img/Fantasy/Wizard/Merlin/Merlin4.jpg"],
         descripcion: "Merlín fue un mago medieval legendario y miembro de la corte del Rey Arturo. Es conocido por su sabiduría, habilidades mágicas y su papel como consejero del rey.",
         status: "Bajo pedido",
         precio: "",
@@ -171,6 +169,161 @@ window.ARTICULOS = [
         precio: "$2,500.00",
         dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
     },
+
+    {
+        sku: 307000,
+        categoria: "Videojuegos",
+        subcategoria: "Silent Hill",
+        nombre: "Pyramid Head",
+        imgs: ["./img/VideoGames/SilentHill/PyramidHead/PyramidHead1.jpg", "./img/VideoGames/SilentHill/PyramidHead/PyramidHead2.jpg", "./img/VideoGames/SilentHill/PyramidHead/PyramidHead3.jpg", "./img/VideoGames/SilentHill/PyramidHead/PyramidHead4.jpg", "./img/VideoGames/SilentHill/PyramidHead/PyramidHead5.jpg"],
+        descripcion: "Pyramid Head, también conocido como Red Pyramid Thing, es un monstruo perteneciente a la serie de videojuegos de terror de supervivencia Silent Hill, desarrollada por Konami.",
+        status: "Disponible",
+        precio: "$2,000.00",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+
+    {
+        sku: 601000,
+        categoria: "Comics",
+        subcategoria: "DC Comics",
+        nombre: "Static Shock",
+        imgs: ["./img/Comics/DCcomics/StaticShock/StaticShock.png", "./img/Comics/DCcomics/StaticShock/StaticShock2.png", "./img/Comics/DCcomics/StaticShock/StaticShock3.png", "./img/Comics/DCcomics/StaticShock/StaticShock4.png"],
+        descripcion: "Static es un superhéroe ficticio de los cómics estadounidenses de la editorial DC Comics.",
+        status: "Disponible",
+        precio: "$1,500.00",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+    {
+        sku: 602000,
+        categoria: "Comics",
+        subcategoria: "Marvel Comics",
+        nombre: "Magik",
+        imgs: ["./img/Comics/Marvel/Magik/Magik1.png", "./img/Comics/Marvel/Magik/Magik3.png", "./img/Comics/Marvel/Magik/Magik31.png", "./img/Comics/Marvel/Magik/Magik4.png", "./img/Comics/Marvel/Magik/Magik5.png", "./img/Comics/Marvel/Magik/Magik6.png"],
+        descripcion: "Magik (Illyana Rasputina) es una superheroína rusa que aparece en los cómics estadounidenses publicados por Marvel Comics en los X-men. ",
+        status: "Disponible",
+        precio: "$1,900.00",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+    {
+        sku: 602001,
+        categoria: "Comics",
+        subcategoria: "Marvel Comics",
+        nombre: "Scarlet Witch",
+        imgs: ["./img/Comics/Marvel/ScarletWitch/ScarletWitch1.png", "./img/Comics/Marvel/ScarletWitch/ScarletWitch2.png", "./img/Comics/Marvel/ScarletWitch/ScarletWitch3.png", "./img/Comics/Marvel/ScarletWitch/ScarletWitch4.png"],
+        descripcion: "Wanda Maximoff es un personaje ficticio interpretada por Elizabeth Olsen en la franquicia del Universo cinematográfico de Marvel",
+        status: "Disponible",
+        precio: "$1,900.00",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+    {
+        sku: 107000,
+        categoria: "Anime",
+        subcategoria: "Dragon Ball",
+        nombre: "Majin Boo",
+        imgs: ["./img/Anime/DragonBall/MajinBoo/MajinBoo1.png", "./img/Anime/DragonBall/MajinBoo/MajinBoo2.png", "./img/Anime/DragonBall/MajinBoo/MajinBoo3.png", "./img/Anime/DragonBall/MajinBoo/MajinBoo4.png", "./img/Anime/DragonBall/MajinBoo/MajinBoo5.png"],
+        descripcion: "Wanda Maximoff es un personaje ficticio interpretada por Elizabeth Olsen en la franquicia del Universo cinematográfico de Marvel",
+        status: "Disponible",
+        precio: "$1,900.00",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+    {
+        sku: 203000,
+        categoria: "Peliculas",
+        subcategoria: "Como entrenar a tu dragón. (How to train your dragon) HTTYD",
+        nombre: "Hipo y Chimuelo (Dragón) ",
+        imgs: ["./img/Peliculas/HTTYD/HipoChimuelo/Hipo1.png", "./img/Peliculas/HTTYD/HipoChimuelo/Hipo2.png", "./img/Peliculas/HTTYD/HipoChimuelo/Hipo3.png", "./img/Peliculas/HTTYD/HipoChimuelo/Hipo4.png", "./img/Peliculas/HTTYD/HipoChimuelo/Hipo5.png", "./img/Peliculas/HTTYD/HipoChimuelo/Hipo6.png", "./img/Peliculas/HTTYD/HipoChimuelo/Hipo7.png", "./img/Peliculas/HTTYD/HipoChimuelo/Hipo8.png", "./img/Peliculas/HTTYD/HipoChimuelo/Hipo9.png"],
+        descripcion: "Hipo y Chimuelo comparten un vínculo de amistad casi incomparable con los otros.",
+        status: "Bajo pedido",
+        precio: "$1,600.00",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+
+    {
+        sku: 308000,
+        categoria: "Videojuegos",
+        subcategoria: "NieR Automata",
+        nombre: "A2 (YoRHa Type A No.2)",
+        imgs: ["./img/VideoGames/NierAutomata/A2-1.png", "./img/VideoGames/NierAutomata/A2-2.png", "./img/VideoGames/NierAutomata/A2-3.png", "./img/VideoGames/NierAutomata/A2-4.png"],
+        descripcion: "Hipo y Chimuelo comparten un vínculo de amistad casi incomparable con los otros.",
+        status: "Bajo pedido",
+        precio: "$1,400.00",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+    {
+        sku: 106000,
+        categoria: "Anime",
+        subcategoria: "Avatar: The Last Airbender",
+        nombre: "Azula",
+        imgs: ["./img/Anime/AvatarAang/AzulaCA3D/Azula1.jpg", "./img/Anime/AvatarAang/AzulaCA3D/Azula2.jpg", "./img/Anime/AvatarAang/AzulaCA3D/Azula3.jpg", "./img/Anime/AvatarAang/AzulaCA3D/Azula4.jpg"],
+        descripcion: "Es la Princesa de la Nación del Fuego, hija del Señor del Fuego Ozai y la Princesa Ursa, nieta de Azulon y hermana menor de el posterior Señor del Fuego Zuko",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+    {
+        sku: 309000,
+        categoria: "Videojuegos",
+        subcategoria: "Monster Hunter",
+        nombre: "Gemma",
+        imgs: ["./img/VideoGames/MonsterHunter/Gemma/Gemma1.jpg", "./img/VideoGames/MonsterHunter/Gemma/Gemma2.jpg", "./img/VideoGames/MonsterHunter/Gemma/Gemma3.jpg", "./img/VideoGames/MonsterHunter/Gemma/Gemma4.jpg", "./img/VideoGames/MonsterHunter/Gemma/Gemma5.jpg"],
+        descripcion: "Little Miss Forge also known by her real name, Gemma, is a smithy found with in Harth.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+    {
+        sku: 204000,
+        categoria: "Peliculas",
+        subcategoria: "Inspector Gadget",
+        nombre: "Inspector Gadget",
+        imgs: ["./img/Peliculas/InspectorGadget/InsGadget/IGadget1.jpg", "./img/Peliculas/InspectorGadget/InsGadget/IGadget2.jpg", "./img/Peliculas/InspectorGadget/InsGadget/IGadget3.jpg", "./img/Peliculas/InspectorGadget/InsGadget/IGadget4.jpg"],
+        descripcion: "Inspector Gadget es un personaje animado que representa a un policía-cibernético no muy inteligente y bastante torpe y despistado.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+
+    {
+        sku: 602002,
+        categoria: "Comics",
+        subcategoria: "Marvel Comics",
+        nombre: "Juggernaut",
+        imgs: ["./img/Comics/Marvel/Juggernaut/Jugger1.png", "./img/Comics/Marvel/Juggernaut/Jugger2.png", "./img/Comics/Marvel/Juggernaut/Jugger3.png", "./img/Comics/Marvel/Juggernaut/Jugger4.png"],
+        descripcion: "Juggernaut (Cain Marko) es un supervillano de los cómics estadounidenses publicados por Marvel Comics.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+
+    {
+        sku: 603000,
+        categoria: "Comics",
+        subcategoria: "Lady Mechanika",
+        nombre: "Lady Mechanika",
+        imgs: ["./img/Comics/LadyMechanika/LadyMecha/LadyMecha.png", "./img/Comics/LadyMechanika/LadyMecha/LadyMecha2.png", "./img/Comics/LadyMechanika/LadyMecha/LadyMecha3.png", "./img/Comics/LadyMechanika/LadyMecha/LadyMecha4.png"],
+        descripcion: "Juggernaut (Cain Marko) es un supervillano de los cómics estadounidenses publicados por Marvel Comics.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+    {
+        sku: 104001,
+        categoria: "Anime",
+        subcategoria: "Sailor Moon",
+        nombre: "Sailor Mars - Rei Hino",
+        imgs: ["./img/Anime/SailorMoon/Mars/Mars.png", "./img/Anime/SailorMoon/Mars/Mars2.png", "./img/Anime/SailorMoon/Mars/Mars3.png", "./img/Anime/SailorMoon/Mars/Mars4.png", "./img/Anime/SailorMoon/Mars/Mars5.png"],
+        descripcion: "Sailor Mars es una justiciera que puede manipular el fuego y posee un sexto sentido para percibir el peligro.​​",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
+
+
+
+
+
+
+
     {
         sku: 401000,
         categoria: "Dungeons & Dragons (D&D)",
