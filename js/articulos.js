@@ -79,12 +79,36 @@ window.ARTICULOS = [
         dimensiones_cm: null
     },
     {
-        sku: 201000,
+        sku: 304000,
         categoria: "Videojuegos",
         subcategoria: "Dead Space",
         nombre: "Isaac Clarke",
-        imgs: ["../img/VideoGames/IsaacClark/Quigon/Quigon1.jpg", "../img/Peliculas/StarWars/Quigon/Quigon2.jpg", "../img/Peliculas/StarWars/Quigon/Quigon3.jpg", "../img/Peliculas/StarWars/Quigon/Quigon4.jpg"],
-        descripcion: "Qui-Gon Jinn, un hombre humano sensible a la Fuerza, fue un venerable y rebelde Maestro Jedi que vivió durante los últimos años de la era de la República. ",
+        imgs: ["../img/VideoGames/Extras/IsaacClarke/IsaacClark1.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark2.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark3.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark4.png","../img/VideoGames/Extras/IsaacClarke/IsaacClark5.png","../img/VideoGames/Extras/IsaacClarke/IsaacClark7.png"],
+        descripcion: "Isaac Clarke es un exingeniero de sistemas navales que trabajó para la Corporación de Extracción Concordancia y desempeñó un papel crucial en los acontecimientos relacionados con los Marcadores en el siglo XXVI. Isaac es el protagonista de toda la franquicia de Dead Space .",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+    },
+
+        {
+        sku: 305000,
+        categoria: "Videojuegos",
+        subcategoria: "Bloodborne",
+        nombre: "Plain  Doll",
+        imgs: ["../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll3.jpg", "../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll4.jpg","../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll5.jpg","../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll1.jpg", "../img/VideoGames/SoulsLike/Bloodborne/PlainDoll/PlainDoll2.jpg"],
+        descripcion: "Una muñeca normal y corriente, pero a medida que avanza la historia, algo podría cambiar.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+    },
+
+    {
+        sku: 202000,
+        categoria: "Peliculas",
+        subcategoria: "Tron",
+        nombre: "Quorra",
+        imgs: ["../img/Peliculas/Tron/Quorra/Quorra1.png", "../img/Peliculas/Tron/Quorra/Quorra2.png","../img/Peliculas/Tron/Quorra/Quorra3.png","../img/Peliculas/Tron/Quorra/Quorra3.png", "../img/Peliculas/Tron/Quorra/Quorra4.png"],
+        descripcion: "Quorra es una excelente guerrera, posee una gran habilidad con la espada de luz y con su disco de identidad. Es una de las mejores luchadoras del mundo digital.",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
