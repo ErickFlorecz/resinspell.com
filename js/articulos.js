@@ -30,18 +30,18 @@ window.ARTICULOS = [
         imgs: ["../img/Anime/DemonSlayer/Nezuko/Nezuko1.webp", "../img/Anime/DemonSlayer/Nezuko/Nezuko2.webp"],
         descripcion: "Nezuko Kamado es la hermana menor de Tanjiro...",
         status: "Disponible",
-        precio: "$19,500.00",
+        precio: "$9,500.00",
         dimensiones_cm: { ancho: 38, largo: 36, alto: 80 }
     },
     {
-        sku: 102000,
+        sku: 104000,
         categoria: "Anime",
-        subcategoria: "Attack on Titan",
-        nombre: "Eren Yeager",
-        imgs: ["./img/Anime/AttackOnTitans/ErenJaeger/ErenJaeger2.webp", "./img/Anime/AttackOnTitans/ErenJaeger/ErenJaeger1.jpg"],
-        descripcion: "Eren Jaeger fue un ex miembro del Regimiento de Exploradores y el protagonista principal de Attack on Titan. Era el único hijo de Grisha y Carla Jaeger, el medio hermano paterno más joven de Zeke Jaeger,[25] y el último poseedor del Titán de Ataque, el Titán Fundador,[26] y el Titán Martillo de Guerra",
+        subcategoria: "Berserk",
+        nombre: "Guts",
+        imgs: ["./img/Anime/Berserker/Guts/Guts1.jpg", "./img/Anime/Berserker/Guts/Guts2.jpg", "./img/Anime/Berserker/Guts/Guts3.jpg", "./img/Anime/Berserker/Guts/Guts4.jpg", "./img/Anime/Berserker/Guts/Guts5.jpg"],
+        descripcion: "Guts, tambíen conocido por su epíteto del 'Espadachín Negro', es el protagonista de Berserk. Es un mercenario solitario que vaga por el mundo medieval oscuro y violento de Berserk, luchando contra humanos y demonios por igual con su enorme espada.",
         status: "Disponible",
-        precio: "$2,500.00",
+        precio: "$1,800.00",
         dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
     },
     {
@@ -160,7 +160,17 @@ window.ARTICULOS = [
         precio: "",
         dimensiones_cm: null
     },
-
+    {
+        sku: 102000,
+        categoria: "Anime",
+        subcategoria: "Attack on Titan",
+        nombre: "Eren Yeager",
+        imgs: ["./img/Anime/AttackOnTitans/ErenJaeger/ErenJaeger2.webp", "./img/Anime/AttackOnTitans/ErenJaeger/ErenJaeger1.jpg"],
+        descripcion: "Eren Jaeger fue un ex miembro del Regimiento de Exploradores y el protagonista principal de Attack on Titan. Era el único hijo de Grisha y Carla Jaeger, el medio hermano paterno más joven de Zeke Jaeger,[25] y el último poseedor del Titán de Ataque, el Titán Fundador,[26] y el Titán Martillo de Guerra",
+        status: "Disponible",
+        precio: "$2,500.00",
+        dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
+    },
     {
         sku: 401000,
         categoria: "Dungeons & Dragons (D&D)",
