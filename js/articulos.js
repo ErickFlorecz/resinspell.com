@@ -83,8 +83,8 @@ window.ARTICULOS = [
         categoria: "Videojuegos",
         subcategoria: "Dead Space",
         nombre: "Isaac Clarke",
-        imgs: ["../img/VideoGames/IsaacClark/Quigon/Quigon1.jpg", "../img/Peliculas/StarWars/Quigon/Quigon2.jpg", "../img/Peliculas/StarWars/Quigon/Quigon3.jpg", "../img/Peliculas/StarWars/Quigon/Quigon4.jpg"],
-        descripcion: "Qui-Gon Jinn, un hombre humano sensible a la Fuerza, fue un venerable y rebelde Maestro Jedi que vivió durante los últimos años de la era de la República. ",
+        imgs: ["../img/VideoGames/Extras/IsaacClarke/IsaacClark1.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark2.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark3.png", "../img/VideoGames/Extras/IsaacClarke/IsaacClark4.png","../img/VideoGames/Extras/IsaacClarke/IsaacClark5.png","../img/VideoGames/Extras/IsaacClarke/IsaacClark7.png"],
+        descripcion: "Isaac Clarke es un exingeniero de sistemas navales que trabajó para la Corporación de Extracción Concordancia y desempeñó un papel crucial en los acontecimientos relacionados con los Marcadores en el siglo XXVI. Isaac es el protagonista de toda la franquicia de Dead Space .",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
