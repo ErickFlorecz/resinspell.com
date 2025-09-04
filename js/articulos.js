@@ -107,8 +107,20 @@ window.ARTICULOS = [
         categoria: "Peliculas",
         subcategoria: "Tron",
         nombre: "Quorra",
-        imgs: ["../img/Peliculas/Tron/Quorra/Quorra1.png", "../img/Peliculas/Tron/Quorra/Quorra2.png","../img/Peliculas/Tron/Quorra/Quorra3.png","../img/Peliculas/Tron/Quorra/Quorra3.png", "../img/Peliculas/Tron/Quorra/Quorra4.png"],
+        imgs: ["../img/Peliculas/Tron/Quorra/Quorra1.png", "../img/Peliculas/Tron/Quorra/Quorra2.png","../img/Peliculas/Tron/Quorra/Quorra3.png", "../img/Peliculas/Tron/Quorra/Quorra4.png"],
         descripcion: "Quorra es una excelente guerrera, posee una gran habilidad con la espada de luz y con su disco de identidad. Es una de las mejores luchadoras del mundo digital.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+    },
+
+    {
+        sku: 103000,
+        categoria: "Anime",
+        subcategoria: "Evangelion",
+        nombre: "Rei Ayanami",
+        imgs: ["../img/Anime/Evangelion/ReiAyanami/Rei1.jpg", "../img/Anime/Evangelion/ReiAyanami/Rei2.jpg","../img/Anime/Evangelion/ReiAyanami/Rei3.jpg", "../img/Anime/Evangelion/ReiAyanami/Rei4.jpg"],
+        descripcion: "Rei Ayanami (綾波 レイ, Ayanami Rei ?) es la First Children elegida por el Instituto Marduk, designada como piloto del Evangelion Unidad 00.",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
