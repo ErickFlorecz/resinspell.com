@@ -45,6 +45,52 @@ window.ARTICULOS = [
         dimensiones_cm: { ancho: 9, largo: 6, alto: 15 }
     },
     {
+
+        sku: 302000,
+        categoria: "Videojuegos",
+        subcategoria: "Zenless Zone Zero",
+        nombre: "Jane Doe",
+        imgs: ["../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe1.jpeg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe2.jpeg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe3.jpeg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe4.jpeg"],
+        descripcion: "Es una agente jugable en Zenless Zone Zero y una especialista en comportamiento criminal que trabaja como consultora para el Equipo de Respuesta Especial de Investigación Criminal (Jane Doe).",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+    },
+    {
+        sku: 303000,
+        categoria: "Videojuegos",
+        subcategoria: "Warhammer 40K",
+        nombre: "Demetrian Titus",
+        imgs: ["../img/VideoGames/Warhammer40K/Titus/Titus1.jpeg", "../img/VideoGames/Warhammer40K/Titus/Titus2.jpeg", "../img/VideoGames/Warhammer40K/Titus/Titus3.jpeg"],
+        descripcion: "Hubo un tiempo en el que parecía que Demetrian Titus, capitán de la 2.ª Compañía, eclipsaría a todos, antes de que un giro de los acontecimientos lo llevara al exilio y se le presumiera muerto durante décadas.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+    },
+    {
+        sku: 201000,
+        categoria: "Peliculas",
+        subcategoria: "Star Wars",
+        nombre: "Qui-Gon Jinn",
+        imgs: ["../img/Peliculas/StarWars/Quigon/Quigon1.jpg", "../img/Peliculas/StarWars/Quigon/Quigon2.jpg", "../img/Peliculas/StarWars/Quigon/Quigon3.jpg", "../img/Peliculas/StarWars/Quigon/Quigon4.jpg"],
+        descripcion: "Qui-Gon Jinn, un hombre humano sensible a la Fuerza, fue un venerable y rebelde Maestro Jedi que vivió durante los últimos años de la era de la República. ",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+    },
+    {
+        sku: 201000,
+        categoria: "Videojuegos",
+        subcategoria: "Dead Space",
+        nombre: "Isaac Clarke",
+        imgs: ["../img/VideoGames/IsaacClark/Quigon/Quigon1.jpg", "../img/Peliculas/StarWars/Quigon/Quigon2.jpg", "../img/Peliculas/StarWars/Quigon/Quigon3.jpg", "../img/Peliculas/StarWars/Quigon/Quigon4.jpg"],
+        descripcion: "Qui-Gon Jinn, un hombre humano sensible a la Fuerza, fue un venerable y rebelde Maestro Jedi que vivió durante los últimos años de la era de la República. ",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+    },
+
+    {
         sku: 401000,
         categoria: "Dungeons & Dragons (D&D)",
         subcategoria: "Barbaro",
@@ -77,27 +123,7 @@ window.ARTICULOS = [
         precio: "",
         dimensiones_cm: null
 
-    }, {
+    },
 
-        sku: 302000,
-        categoria: "Videojuegos",
-        subcategoria: "Zenless Zone Zero",
-        nombre: "Jane Doe",
-        imgs: ["../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe1.jpeg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe2.jpeg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe3.jpeg", "../img/VideoGames/ZenlessZoneZero/JaneDoe/JaneDoe4.jpeg"],
-        descripcion: "Es una agente jugable en Zenless Zone Zero y una especialista en comportamiento criminal que trabaja como consultora para el Equipo de Respuesta Especial de Investigación Criminal (Jane Doe).",
-        status: "Bajo pedido",
-        precio: "",
-        dimensiones_cm: null
-    },
-    {
-        sku: 303000,
-        categoria: "Videojuegos",
-        subcategoria: "Warhammer 40K",
-        nombre: "Demetrian Titus",
-        imgs: ["../img/VideoGames/Warhammer40K/Titus/Titus1.jpeg", "../img/VideoGames/Warhammer40K/Titus/Titus2.jpeg", "../img/VideoGames/Warhammer40K/Titus/Titus3.jpeg"],
-        descripcion: "Hubo un tiempo en el que parecía que Demetrian Titus, capitán de la 2.ª Compañía, eclipsaría a todos, antes de que un giro de los acontecimientos lo llevara al exilio y se le presumiera muerto durante décadas.",
-        status: "Bajo pedido",
-        precio: "",
-        dimensiones_cm: null
-    },
+
 ];
