@@ -198,7 +198,7 @@ window.ARTICULOS = [
         categoria: "Comics",
         subcategoria: "Marvel Comics",
         nombre: "Magik",
-        imgs: ["./img/Comics/Marvel/Magik/Magik3.png", "./img/Comics/Marvel/Magik/Magik31.png", "./img/Comics/Marvel/Magik/Magik4.png", "./img/Comics/Marvel/Magik/Magik5.png", "./img/Comics/Marvel/Magik/Magik6.png"],
+        imgs: ["./img/Comics/Marvel/Magik/Magik3.webp", "./img/Comics/Marvel/Magik/Magik31.webp", "./img/Comics/Marvel/Magik/Magik4.webp", "./img/Comics/Marvel/Magik/Magik5.webp", "./img/Comics/Marvel/Magik/Magik6.webp"],
         descripcion: "Magik (Illyana Rasputina) es una superheroína rusa que aparece en los cómics estadounidenses publicados por Marvel Comics en los X-men. ",
         status: "Disponible",
         precio: "$1,900.00",
@@ -328,9 +328,9 @@ window.ARTICULOS = [
         sku: 401000,
         categoria: "Dungeons & Dragons (D&D)",
         subcategoria: "Barbaro",
-        nombre: "Gu-Klu",
-        imgs: ["./img/DnD/Barbaro/GuKlu/GuKlu1.jpg", "./img/DnD/Barbaro/GuKlu/GuKlu2.jpg"],
-        descripcion: "Guerreros salvajes que canalizan la furia en combate.",
+        nombre: "King Hjolmir",
+        imgs: ["./img/DnD/Barbaro/KingHjolmir/KingHjolmir/KHjolmir.webp"],
+        descripcion: "Miniatura - Guerreros salvajes que canalizan la furia en combate.",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
@@ -339,9 +339,9 @@ window.ARTICULOS = [
         sku: 402000,
         categoria: "Dungeons & Dragons (D&D)",
         subcategoria: "Bardo",
-        nombre: "Ciryn",
-        imgs: ["./img/DnD/Bardo/Ciryn/Ciryn1.webp", "./img/DnD/Bardo/Ciryn/Ciryn2.jpg"],
-        descripcion: "Artistas y hechiceros que utilizan la música y la persuasión.",
+        nombre: "Ereviell",
+        imgs: ["./img/DnD/Bardo/Ereviell/Ereviell1.webp", "./img/DnD/Bardo/Ciryn/Ciryn2.jpg"],
+        descripcion: "Miniatura - Artistas y hechiceros que utilizan la música y la persuasión.",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
@@ -349,10 +349,96 @@ window.ARTICULOS = [
     {
         sku: 403000,
         categoria: "Dungeons & Dragons (D&D)",
+        subcategoria: "Wizard",
+        nombre: "Renard the Black",
+        imgs: ["./img/DnD/Wizard/Renard/Theblack/Renardtb1.webp", "./img/DnD/Wizard/Renard/Theblack/Renardtb2.webp"],
+        descripcion: "Miniatura - Artistas y hechiceros que utilizan la música y la persuasión.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+
+    },
+
+    {
+        sku: 403000,
+        categoria: "Dungeons & Dragons (D&D)",
+        subcategoria: "Barbaro",
+        nombre: "Gorr SpineBreaker",
+        imgs: ["./img/DnD/Barbaro/GorrSpinebreaker/GorrSB/GorrSB1.webp"],
+        descripcion: "Miniatura - Artistas y hechiceros que utilizan la música y la persuasión.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+
+    },
+    {
+        sku: 403000,
+        categoria: "Dungeons & Dragons (D&D)",
+        subcategoria: "Fighter",
+        nombre: "Lydia the Merciless",
+        imgs: ["./img/DnD/Fighter/DMstash/Lydia/Lydia1.webp"],
+        descripcion: "Miniatura - Artistas y hechiceros que utilizan la música y la persuasión.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+
+    },
+    {
+        sku: 403000,
+        categoria: "Dungeons & Dragons (D&D)",
+        subcategoria: "Paladín",
+        nombre: "Jorjie of Hvirna",
+        imgs: ["./img/DnD/Paladin/DMstash/JorjieH/JorjieH1.webp", "./img/DnD/Paladin/DMstash/JorjieH/JorjieH2.webp"],
+        descripcion: "Miniatura - Artistas y hechiceros que utilizan la música y la persuasión.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+
+    }, {
+        sku: 403000,
+        categoria: "Dungeons & Dragons (D&D)",
+        subcategoria: "Rouge",
+        nombre: "Serran Master Assassin",
+        imgs: ["./img/DnD/Rough/DMstash/Serran/Serran1.webp"],
+        descripcion: "Miniatura - Artistas y hechiceros que utilizan la música y la persuasión.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+
+    },
+    {
+        sku: 403000,
+        categoria: "Dungeons & Dragons (D&D)",
+        subcategoria: "Fighter",
+        nombre: "Sir Davion Gainsworth",
+        imgs: ["./img/DnD/Fighter/DMstash/SirDavion/SirDavion.webp"],
+        descripcion: "Miniatura - Artistas y hechiceros que utilizan la música y la persuasión.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+
+    },
+
+    {
+        sku: 403000,
+        categoria: "Dungeons & Dragons (D&D)",
+        subcategoria: "Paquetes campañas",
+        nombre: "De inicio a héroe",
+        imgs: ["./img/Dnd/Paquetes/Campañas/Equipo1/ConjuntoHeroes.webp", "./img/Dnd/Paquetes/Campañas/Equipo1/ConjuntoHeroes2.webp"],
+        descripcion: "Conjunto de 5 miniaturas para iniciar tu aventura en Dungeons & Dragons.",
+        status: "Bajo pedido",
+        precio: "",
+        dimensiones_cm: null
+
+    },
+
+    {
+        sku: 403000,
+        categoria: "Dungeons & Dragons (D&D)",
         subcategoria: "The Lord of the Rings",
         nombre: "Gandalf el Gris",
         imgs: ["./img/ElSeñorDeLosAnillos/Istar/Gandalf/Gandalf1.jpg", "./img/ElSeñorDeLosAnillos/Istar/Gandalf/Gandalf2.jpg"],
-        descripcion: "Artistas y hechiceros que utilizan la música y la persuasión.",
+        descripcion: "Miniatura - Artistas y hechiceros que utilizan la música y la persuasión.",
         status: "Bajo pedido",
         precio: "",
         dimensiones_cm: null
