@@ -424,7 +424,7 @@ window.ARTICULOS = [
         categoria: "Dungeons & Dragons (D&D)",
         subcategoria: "Paquetes campañas",
         nombre: "De inicio a héroe",
-        imgs: ["./img/Dnd/Paquetes/Campanas/Equipo1/ConjuntoHeroes.webp", "./img/Dnd/Paquetes/Campanas/Equipo1/ConjuntoHeroes2.webp"],
+        imgs: ["./img/DnD/Paquetes/Campanas/Equipo1/ConjuntoHeroes.webp", "./img/DnD/Paquetes/Campanas/Equipo1/ConjuntoHeroes2.webp"],
         descripcion: "Conjunto de 5 miniaturas para iniciar tu aventura en Dungeons & Dragons.",
         status: "Bajo pedido",
         precio: "",
